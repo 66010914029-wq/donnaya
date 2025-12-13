@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>66010914029 ดนยา อุดมคำ(ปูเป้)</title>
+</head>
+
+<body>
+<h1>ฟอร์มรับข้อมูล-ดนยา อุดมคำ(ปูเป้)</h1>
+
+<form method="post" action="">
+ชื่อ-สกุล <input type = "text" name="fulluame" autofocus required>*<br>
+เบอร์โทร <input type = "text" name="Phone" required>*<br>
+ส่วนสูง <input type="number" name="height" min="100" max="200" required>ซม.*<br>
+
+ที่อยูู่<br><textarea name="address" cols="40" rows="4"></textarea><br>
+
+วันเดือนปีเกิด <input type="date" name="birthday"><br>
+สีที่ชอบ <input type="color" name="color"><br>
+
+สาขาวิชา
+<select name="major">
+ <option value="การบัญชี">การบัญชี</option>
+ <option value="การตลาด">การตลาด</option>
+ <option value="การจัดการ">การจัดการ</option>
+ <option value="คอมพิวเตอร์ธุรกิจ">คอมพิวเตอร์ธุรกิจ</option>
+</select>
+<br><br>
+
+<!--<input type="subimt" name="Subimt" value="สมัครสมาชิก">-->
+<button type= "subimt" name= "Subimt">สมัครสมาชิก</button>
+<button type= "rest">ยกเลิก</button>
+<button type= "button" onClick="window.location='https://www.msu.ac.th/';">Go to MSU</button>
+<button type="button" onMouseOver="alert('จ้า!');">Hello</button>
+
+<button type="button" onClick="window.print();">พิมพ์</button>
+
+</form>
+<hr>
+<?php
+if(isset($_POST['Subimt'])){
+	$fullname = $_POST['fullname'];
+	$Phone = $_POST['Phone'];
+	$height = $_POST['height'];
+	$birthday = $_POST['birthday'];
+	$address = $_POST['address'];
+	$color = $_POST['color'];
+	$major = $_POST['major'];
+
+		
+	echo"ชื่อ-สกุล:" .$fullname."<br>";
+	echo"เบอร์โทร:" .$Phone."<br>";
+	echo"ส่วนสูง:" .$height."ซม.<br>";
+	echo"ที่อยูู่:" .$address."<br>";
+	echo"วันเดือนปีเกิด:" .$birthday."<br>";
+	echo"สีที่ชอบ:<div style='background-color:{$color};width:300px'>
+" .$color."</div>";
+	echo"สาขาวิชา:" .$major."<br>";
+}
+?>
+
+</body>
+</html>
+
