@@ -12,7 +12,7 @@
 
 <body>
 <h1>งาน k 66010914029 ดนยา อุดมคำ</h1>
-<img src= "images/1.jpg"width="305" >
+
 <br><br>
 
 <a href="images/1.jpg" class="btn-green">เปิดรูปตัวเอง</a>
