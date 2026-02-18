@@ -17,7 +17,7 @@
 
 <a href="images/1.jpg" class="btn-green">เปิดรูปตัวเอง</a>
 
-<a href="images/teacher.jpg" class="btn-orange">เปิดรูปอาจารย์ผู้สอน</a>
+<a href="images/2.jpg" class="btn-orange">เปิดรูปอาจารย์ผู้สอน</a>
 
 <h1>งาน k 66010914029 ดนยา อุดมคำ</h1>
 <img src= "images/1.jpg"width="305" >
