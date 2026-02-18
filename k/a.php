@@ -12,7 +12,7 @@
 <body>
     <h1>งาน k 66010914029 ดนยา อุดมค่า</h1>
    
-    <img src="images/.jpg" width="305">
+    
 
     <br><br>
 
