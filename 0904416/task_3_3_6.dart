@@ -1,8 +1,11 @@
 import 'dart:io';
 
 void main() {
-  print("Enter your name:");
-  var name = stdin.readLineSync();
+  print('กรุณาพิมพ์ชื่อของคุณ :');
+  var name = stdin.readLineSync(); // รับข้อมูลค่าเป็น String
 
-  print("Hello $name");
+  print('กรุณาพิมพ์อายุ :');
+  var age = int.parse(stdin.readLineSync()!); // แปลงเป็นจำนวนเต็ม
+
+  print('สวัสดีคุณ $name อายุ $age ปี');
 }
