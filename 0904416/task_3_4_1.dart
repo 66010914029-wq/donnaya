@@ -1,10 +1,8 @@
 void main() {
-  int a = 20;
-  int b = 10;
+  int a = 8, b = 9;
 
-  print("Addition = ${a + b}");
-  print("Subtraction = ${a - b}");
-  print("Multiplication = ${a * b}");
-  print("Division = ${a / b}");
-  print("Modulus = ${a % b}");
+  print('$a + $b = ${a + b}');
+  print('$a / $b = ${a / b}'); // หารปกติ ได้ทศนิยม
+  print('$a ~/ $b = ${a ~/ b}'); // หารเอาเฉพาะจำนวนเต็ม
+  print('$a % $b = ${a % b}'); // เศษจากการหาร
 }

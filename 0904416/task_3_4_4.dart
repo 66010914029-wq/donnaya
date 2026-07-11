@@ -1,15 +1,15 @@
 void main() {
-  int number = 10;
+  var x = 10;
 
-  number += 5;
-  print(number);
+  x += 5;   // x = x + 5 -> 15
+  x -= 3;   // x = x - 3 -> 12
+  x *= 2;   // x = x * 2 -> 24
+  x ~/= 5;  // x = x ~/ 5 -> 4
 
-  number -= 3;
-  print(number);
+  int? y;
 
-  number *= 2;
-  print(number);
+  y ??= 99; // กำหนดค่าเมื่อ y เป็น null
 
-  number ~/= 4;
-  print(number);
+  print(x); // 4
+  print(y); // 99
 }

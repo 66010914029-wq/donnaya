@@ -1,8 +1,11 @@
 void main() {
-  var number = 100;
-  var text = "Flutter";
+  Object value = 'สวัสดี';
 
-  print(number is int);
-  print(text is String);
-  print(number is! String);
+  print(value is String); // true -> เป็น String หรือไม่
+  print(value is! int);   // true -> "ไม่ได้" เป็น int ใช่ไหม
+
+  // as ใช้แปลงชนิด (type cast)
+  String text = value as String;
+
+  print(text.length);
 }

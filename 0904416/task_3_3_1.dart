@@ -1,11 +1,8 @@
 void main() {
-  var name = "Pupe";
-  var age = 22;
-  var height = 155.0;
-  var isStudent = true;
+  var name = 'มะลิ';
+  var score = 85;
 
-  print("Name: $name");
-  print("Age: $age");
-  print("Height: $height cm");
-  print("Student: $isStudent");
+  print('สวัสดี $name'); // แทรกตัวแปร
+  print('คะแนนรวม: ${score + 10}'); // แทรกนิพจน์
+  print('ชื่อยาว ${name.length} ตัวอักษร'); // เรียกเมธอดได้ด้วย
 }
